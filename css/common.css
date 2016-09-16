@@ -1,0 +1,90 @@
+body {
+	background-image: url(../images/hexabackground.svg);
+	background-size: 5%;
+}
+body h1 {
+	color: orange;
+	text-shadow: -2px 0 black, 0 2px white, 2px 0 black, 0 -2px black;
+	font-size: 300%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+legend {
+	font-weight: bold;
+	background-color: #FFF9F2;
+}
+fieldset {
+	background-color: #FFF9F2;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th{
+	height: 50px;
+	background-color: grey;
+}
+td {
+	text-align: center;
+}
+td#on {
+	font-weight: bold;
+	background: lightgreen;
+	color: green;
+}
+td#off {
+	font-weight: bold;
+	background: lightcoral;
+	color: red;
+}
+tr {
+	background-color: white;
+}
+tr:nth-child(even) {
+	background-color: #f0f0f0;
+}
+table, th, td {
+	border: 1px solid black;
+}
+span.h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+footer{
+	color: aliceblue;
+	display: flex;
+	min-width: 100%;
+	border: 1px white solid;
+	border-radius: 4px;
+}
+footer div {
+	display: inline-block;
+	width: 33.3%;
+	padding: 2%;
+	background-color: rgba(55,55,55,0.9);
+	border-right: 1px grey dashed;
+}
+footer div a:link {
+	color: orange;
+}
+footer div a:active, footer div a:visited {
+	color: Aquamarine;
+}
+.footer_header {
+	font-weight: bold;
+}
+.footer_content {
+	position:absolute;
+	bottom:10px;
+}
+@media screen and (min-width: 480px){
+	footer {
+		overflow-x: hidden;
+	}
+}

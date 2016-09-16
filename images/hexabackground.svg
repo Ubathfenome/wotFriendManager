@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="-34.6410161514 -34.6410161514 138.564064606 138.564064606" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="disable">
+	<defs>
+		<polygon id = "h1" points="34.6410161514,0 69.2820323028,34.6410161514 69.2820323028,69.2820323028 34.6410161514,103.923048454 0,69.2820323028 0,34.6410161514" opacity = "0.85" fill="url(#g1)" stroke = "white" stroke-width = "1" stroke-opacity="0.85" />
+
+		<linearGradient id="g1" x1="50%" y1="0%" x2="50%" y2="100%">
+			<stop offset="0%" stop-color="black" stop-opacity="0.6" />
+			<stop offset="50%" stop-color="black" stop-opacity="0.4" />
+			<stop offset="100%" stop-color="lightgray" stop-opacity="0.3" />
+		</linearGradient>
+	</defs>
+
+	<use x = "-34.6410161514" y = "-69.2820323028" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "34.6410161514" y = "-69.2820323028" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "-69.2820323028" y = "0" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "0" y = "0" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "69.2820323028" y = "0" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "-34.6410161514" y = "69.2820323028" xlink:href = "#h1" fill="url(#g1)"/>
+	<use x = "34.6410161514" y = "69.2820323028" xlink:href = "#h1" fill="url(#g1)"/>
+</svg>

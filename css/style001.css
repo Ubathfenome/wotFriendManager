@@ -1,0 +1,77 @@
+body h2 {
+	text-align: center;
+}
+#form form{
+	width: 100%;
+	display: inline-block;
+}
+#saved_players ul {
+	display: block;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 4px;
+}
+#players_list li {
+	display: inline-block;
+	background-color: LightSkyBlue;
+	color: black;
+	box-shadow: 2px 2px 5px grey;
+	padding: 1px 5px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px solid gray;
+	margin: 2px 0;
+}
+#players_list li.on{
+	background-color: LightGreen;
+	color: black;
+}
+#players_list li.off{
+	background-color: LightCoral;
+	color: black;
+}
+#players_list li:hover {
+	background-color: LightSteelBlue;
+	color: white;
+	box-shadow: inset 0px 0px 2px grey;
+}
+#players_list li.on:hover{
+	background-color: PaleGreen;
+	color: white;
+}
+#players_list li.off:hover{
+	background-color: RosyBrown;
+	color: white;
+}
+div#saved_players {
+	display: block;
+}
+div#id02 {
+	border: 1px ridge grey;
+	box-shadow: 5px 5px 10px black;
+	background-color: #FFF9F2;
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+}
+#id01 a {
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	transition: 0.3s;
+	background-color: #F0F0F0;
+	box-shadow: 2px 2px 5px grey;
+}
+#id01 a:hover {
+	background-color: #FAFAFA;
+}
+#id01 a:active {
+	box-shadow: inset 2px 2px 5px grey;
+}
+#id01 img {
+	max-width: 24px;
+	max-height: 24px;
+}
