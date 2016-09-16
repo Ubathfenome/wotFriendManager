@@ -128,13 +128,13 @@
 			
 			if ($conn->query($sql) === TRUE) {
 				echo "New user created successfully<br>";
-				$sql = "GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP ON * . * TO 'wotfm'@'localhost';";
+				$sql = "GRANT USAGE ON *.* TO '" . $_POST["dbname"] . "'@'localhost' IDENTIFIED BY PASSWORD 'wotfm';" 
+				+ "GRANT ALL PRIVILEGES ON `" . $_POST["dbname"] . "`.* TO 'wotfm'@'localhost';";
 			if ($conn->query($sql) === TRUE) {
 				echo "Privileges granted successfully<br>";
 				$sql = "FLUSH PRIVILEGES;";
 				if ($conn->query($sql) === TRUE) {
 					echo "Privileges updated successfully<br>";
-					// $sql = "INSERT INTO `mysql`.`db` (`Host`, `Db`, `User`, `Select_priv`, `Insert_priv`, `Update_priv`, `Delete_priv`, `Create_priv`, `Drop_priv`, `Grant_priv`, `References_priv`, `Index_priv`, `Alter_priv`, `Create_tmp_table_priv`, `Lock_tables_priv`, `Create_view_priv`, `Show_view_priv`, `Create_routine_priv`, `Alter_routine_priv`, `Execute_priv`, `Event_priv`, `Trigger_priv`) VALUES ('localhost', 'wotreplays', 'wotfm', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y');";
 				} else {
 					$sqlerrors++;
 					echo "Error: " . $sql . "<br>" . $conn->error . "<br>";
