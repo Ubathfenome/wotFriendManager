@@ -62,10 +62,12 @@ footer{
 	min-width: 100%;
 	border: 1px white solid;
 	border-radius: 4px;
+	position:absolute;
+	bottom:10px;
 }
 footer div {
 	display: inline-block;
-	width: 33.3%;
+	width: 33%;
 	padding: 2%;
 	background-color: rgba(55,55,55,0.9);
 	border-right: 1px grey dashed;
@@ -78,10 +80,6 @@ footer div a:active, footer div a:visited {
 }
 .footer_header {
 	font-weight: bold;
-}
-.footer_content {
-	position:absolute;
-	bottom:10px;
 }
 @media screen and (min-width: 480px){
 	footer {

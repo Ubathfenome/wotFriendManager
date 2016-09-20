@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
 	<div id="footer_leftmost">
 		<p class="footer_header">Technologies used on the web:</p>
 		<ul>
@@ -13,6 +13,7 @@
 	<div id="footer_center">
 		<p class="footer_header">Web designed by <a href="mailto:Ubathfenome@gmail.com">Ubathfenome</a></p>
 		<p class="footer_header">User's privacy disclaimer	<a href="./disclaimer.html">DISCLAIMER</a></p>
+		<p class="footer_content">Last update: 20/09/2016</p>
 		<p class="footer_content">&copy; Copyright Ubathfenome 2016</p>
 	</div>
 	<div id="footer_rightmost">
